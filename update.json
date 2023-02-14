@@ -1,5 +1,5 @@
 {
-  "Version": "17",
+  "Version": "18",
   "ReleaseNotes": "Nova atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
   "Sms": "https://raw.githubusercontent.com/clecio81/updates/main/msg.jason",
@@ -63,7 +63,7 @@
       "PASS": ""
     },
     {
-      "Name": "Brasil 1 ( Gratuito )",
+      "Name": "Brasil 1 ( são Paulo)",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "brasil-1.sshconect-ip.xyz",
@@ -74,7 +74,7 @@
       "PASS": ""
     },
     {
-      "Name": "Brasil 2 ( Gratuito )",
+      "Name": "Brasil 2 ( ssh - Connect )",
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "brasil-2.sshconect-ip.xyz",
