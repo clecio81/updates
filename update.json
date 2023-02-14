@@ -1,8 +1,8 @@
 {
   "Version": "15",
   "ReleaseNotes": "Nova atualização Disponível!",
-  "UrlUpdate": "",
-  "Sms": "https://sshconect.com.br/arquivos/download/app-sshconect/msg.jason",
+  "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
+  "Sms": "https://raw.githubusercontent.com/clecio81/updates/main/msg.jason",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "",
