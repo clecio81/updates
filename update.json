@@ -239,10 +239,10 @@
     {
       "Name": "OI [ DIRECT 3 ]",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]Upgrade: ELAXI Websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.17.127.58",
+      "ProxyIP": "104.16.53.111",
       "ProxyPort": "80",
       "Info": "Proxy"
        }
