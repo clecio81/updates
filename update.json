@@ -1,5 +1,5 @@
 {
-  "Version": "22",
+  "Version": "23",
   "ReleaseNotes": "Nova atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
   "Sms": "https://raw.githubusercontent.com/clecio81/updates/main/msg.jason",
@@ -7,26 +7,10 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "UdpPort": "7100;7200;7300;7400;7500;7600",
-  "Udp": [
-    {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },
-    {
-      "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7600"
-    }
+   "Udp": [
+        {
+            "Porta": "7300"
+        }
   ],
   "Servers": [
     {
@@ -56,7 +40,7 @@
       "TYPE": "PREMIUM",
       "FLAG": "br.png",
       "ServerIP": "br2.sshconect-ip.xyz",
-      "CheckUser": "http://4.228.67.178:8080/checkUser",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
