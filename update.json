@@ -1,7 +1,7 @@
 
 {
 
-    "Version": "54",
+    "Version": "55",
 
     "ReleaseNotes": "BEM VINDO À ELAXI!",
 
@@ -153,6 +153,6 @@
             "ProxyPort": "80",
 
       
-},
-      ]
+}]
+      
       }
