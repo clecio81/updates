@@ -1,7 +1,7 @@
 {
     "Version": "29",
-    "ReleaseNotes": "BEM VINDO À GRINGO NET!",
-    "UrlUpdate": "https://bitbin.it/F7DfMnCq/raw/",
+    "ReleaseNotes": "BEM VINDO ELAXI!",
+    "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
     "Sms": "SMS",
     "EmailFeedback": "",
     "UrlContato": "t.me/ogshakurr",
@@ -14,7 +14,7 @@
     ],
     "Servers": [
         {
-            "Name": "GRINGO [PREMIUM]",
+            "Name": "ELAXI [PREMIUM]",
             "TYPE": "premium",
             "FLAG": "br.png",
             "ServerIP": "shakur.angelsystem.cf",
