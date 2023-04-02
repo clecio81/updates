@@ -8,26 +8,11 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "UdpPort": "7100;7200;7300;7400;7500;7600",
   "Udp": [
     {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },   
-    {
       "Porta": "7300"
-    },  
-    {
-      "Porta": "7400"
-    },   
-    {
-      "Porta": "7500"
-    },   
-    {
-      "Porta": "7600"
-    },    
+    },
+
   ],
   "Servers": [
     {
@@ -100,7 +85,7 @@
     {
       "Name": "TIM E VIVO [ 1 ]",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "BASELINE-CONTROL wss://painel3.elaxi.xyz HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]ELAXI[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "191.252.109.226",
@@ -118,134 +103,23 @@
       "Info": "Proxy"
     },
     {
-      "Name": "TIM [ 3 ]",
+
+      "Name": "TIM E VIVO [ 3 ]",
+
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: painel3.elaxi.xyz\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+
+      "Payload": "GET / HTTP/1.1[crlf]Host: [rotate=painel3.elaxi.xyz;painel.elaxi.shop][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: Websocket[crlf][crlf]",
+
       "SNI": "",
-      "TlsIP": "127.0.0.1",
-      "ProxyIP": "191.252.109.226",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM [ 4 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "127.0.0.1",
-      "ProxyIP": "191.252.109.226",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM [ 5 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "c6bank.com.br",
-      "ProxyIP": "191.252.109.226",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM [ 6 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "c6bank.com.br",
-      "ProxyIP": "191.252.109.226",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "TIM [ 7 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: api.sandbox.c6bank.com.br[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
-      "SNI": "",
-      "TlsIP": "mobile.c6bank.app",
-      "ProxyIP": "mobile.c6bank.app",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO [ 3 ] (novo)", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "104.16.53.111", 
-      "ProxyIP": "104.16.51.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "VIVO [ 4 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "172.64.144.109", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": " VIVO [ 5 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.16.51.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "VIVO [ 6 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.16.53.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "VIVO [ EASY ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.18.7.41", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "OI [ DIRECT 1 ]",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
+
       "TlsIP": "",
-      "ProxyIP": "104.16.53.91",
+
+      "ProxyIP": "191.252.109.226",
+
       "ProxyPort": "80",
+
       "Info": "Proxy"
-    },
-    {
-      "Name": "OI [ DIRECT 2 ]",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.54.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI [ DIRECT 3 ]",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.17.127.58",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-       }
+
+    }
   ]
  }
