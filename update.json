@@ -120,6 +120,105 @@
 
       "Info": "Proxy"
 
-    }
+    },
+            {
+
+            "Name": "🟣 VIVO FLARE [10]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+
+            "SNI": "",
+
+            "TlsIP": "",
+
+            "ProxyIP": "ayuda.tigo.com.gt",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
+
+        {
+
+            "Name": "🟣 VIVO FLARE [11]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+
+            "SNI": "[app_host]",
+
+            "TlsIP": "",
+
+            "ProxyIP": "104.16.53.111",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
+
+        {
+
+            "Name": "🟣 VIVO FLARE [12]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+
+            "SNI": "mobilidade.cloud.caixa.gov.br",
+
+            "TlsIP": "",
+
+            "ProxyIP": "104.16.51.111",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
+
+        {
+
+            "Name": "🟣 VIVO FLARE [13]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+
+            "SNI": "workplaceservices.surveymonkey.com",
+
+            "TlsIP": "",
+
+            "ProxyIP": "104.16.51.111",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
+
+        {
+
+            "Name": "🟣 VIVO FLARE [14]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+
+            "SNI": "auth-uat-us.surveymonkey.com",
+
+            "TlsIP": "",
+
+            "ProxyIP": "104.18.7.22",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
   ]
  }
