@@ -1,150 +1,30 @@
-{
-
-    "Version": "58",
-
-    "ReleaseNotes": "BEM VINDO À ELAXI",
-
-    "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
-
-    "Sms": "https://raw.githubusercontent.com/clecio81/updates/main/msg.jason",
-
-    "EmailFeedback": "",
-
-    "UrlContato": "",
-
-    "UrlTermos": "",
-
-    "CheckUser": "true",
-
-    "Udp": [
-
-        {
-
-            "Porta": "7300"
-
-        }
-
-    ],
-  "Servers": [
-    {
-      "Name": "SELECIONE SEU SERVIDOR",
-      "TYPE": "",
-      "FLAG": "servidor.png",
-      "ServerIP": "",
-      "CheckUser": "http://191.252.109.226:5454/checkUser",
-      "ServerPort": "",
-      "SSLPort": "",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Premium -BR1 ( Clientes )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "br1.sshconect-ip.xyz",
-      "CheckUser": "http://191.252.109.226:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Premium -BR2 ( Clientes )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "br2.sshconect-ip.xyz",
-      "CheckUser": "http://191.252.109.226:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Brasil 1 ( ELAXI )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "191.252.109.226",
-      "CheckUser": "http://191.252.109.226:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Brasil 2 ( Gratuito )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "brasil-2.sshconect-ip.xyz",
-      "CheckUser": "http://191.252.109.226:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-  ],
-
-    "Networks": [
-
-        {
-
-            "Name": "VIVO SSL [01]",
-
-            "FLAG": "vivo",
-
-            "Payload": "TRUE-CONTROL / [protocol][crlf]Host: 191.252.109.226[crlf]Upgrade: websocket[crlf][crlf]",
-
-            "SNI": "191.252.109.226",
-
-            "TlsIP": "104.18.6.41",
-
-            "ProxyIP": "",
-
-            "ProxyPort": "443",
-
-
-        },
-
-        {
-
-            "Name": "VIVO [2] ",
-
-            "FLAG": "vivo",
-
-            "Payload": "GET wss://painel3.elaxi.xyz/ HTTP/1.1[crlf]Host: 191.252.109.226:443.com[crlf]Connection: Upgrade[crlf]Upgrade:Resurrection websocket[crlf][crlf]"
-            "SNI": "",
-
-            "TlsIP": "",
-
-            "ProxyIP": "191.252.109.226",
-
-            "ProxyPort": "80",
-
-            "Info": "Proxy"
-
-        },
-
-        {
-
-            "Name": "VIVO FLARE [02]",
-
-            "FLAG": "vivo",
-
-            "Payload": "BASELINE-CONTROL wss://painel3.elaxi.xyz HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]RESURRECTION[crlf][crlf]",
-
-            "SNI": "",
-
-            "TlsIP": "",
-
-            "ProxyIP": "191.252.109.226",
-
-            "ProxyPort": "80",
-
-            "Info": "Proxy"
-
-        },
-
-        
-
-    ]
-
+      {
+         "Name":"VIVO SSL [01]",
+         "FLAG":"vivo",
+         "Payload":"TRUE-CONTROL / [protocol][crlf]Host: 191.252.109.226[crlf]Upgrade: websocket[crlf][crlf]",
+         "SNI":"191.252.109.226",
+         "TlsIP":"104.18.6.41",
+         "ProxyIP":"",
+         "ProxyPort":"443"
+      },
+      {
+         "Name":"VIVO [2] ",
+         "FLAG":"vivo",
+         "Payload":"GET wss://painel3.elaxi.xyz/ HTTP/1.1[crlf]Host: 191.252.109.226:443.com[crlf]Connection: Upgrade[crlf]Upgrade:Resurrection websocket[crlf][crlf]""SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"191.252.109.226",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      },
+      {
+         "Name":"VIVO FLARE [02]",
+         "FLAG":"vivo",
+         "Payload":"BASELINE-CONTROL wss://painel3.elaxi.xyz HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]RESURRECTION[crlf][crlf]",
+         "SNI":"",
+         "TlsIP":"",
+         "ProxyIP":"191.252.109.226",
+         "ProxyPort":"80",
+         "Info":"Proxy"
+      }
+   ]
 }
