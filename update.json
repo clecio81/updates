@@ -1,7 +1,7 @@
 
 {
 
-    "Version": "53",
+    "Version": "54",
 
     "ReleaseNotes": "BEM VINDO À ELAXI!",
 
@@ -145,7 +145,7 @@
             "Name": "VIVO ",
 
 
-            "Payload": "GET wss://sua-host.com/ HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Connection: Upgrade[crlf]Upgrade:ELAXI websocket[crlf][crlf]",
+            "Payload": "GET wss://painel3.elaxi.xyz/ HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Connection: Upgrade[crlf]Upgrade:ELAXI websocket[crlf][crlf]",
 
 
             "ProxyIP": "191.252.109.226",
