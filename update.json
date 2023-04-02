@@ -1,6 +1,6 @@
 
 {
-  "Version": "35",
+  "Version": "36",
   "ReleaseNotes": "Nova atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
   "Sms": "https://sshconect.com.br/arquivos/download/app-sshconect/msg.jason",
@@ -127,7 +127,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
 
             "SNI": "",
 
@@ -147,9 +147,9 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "Payload": "GET / HTTP/1.1\nHost: painel3.elaxi.xyz\nUpgrade: ws\n\n",
 
-            "SNI": "[app_host]",
+            "SNI": "painel3.elaxi.xyz",
 
             "TlsIP": "",
 
@@ -167,7 +167,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "Payload": "GET / HTTP/1.1\nHost: painel3.elaxi.xyz\nUpgrade: ws\n\n",
 
             "SNI": "mobilidade.cloud.caixa.gov.br",
 
@@ -187,7 +187,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "Payload": "GET / HTTP/1.1\nHost: painel3.elaxi.xyz\nUpgrade: ws\n\n",
 
             "SNI": "workplaceservices.surveymonkey.com",
 
@@ -207,7 +207,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+            "Payload": "GET / HTTP/1.1\nHost: painel3.elaxi.xyz\nUpgrade: ws\n\n",
 
             "SNI": "auth-uat-us.surveymonkey.com",
 
