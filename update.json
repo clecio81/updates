@@ -1,6 +1,6 @@
 {
 
-    "Version": "52",
+    "Version": "53",
 
     "ReleaseNotes": "BEM VINDO À ELAXI!",
 
@@ -32,7 +32,7 @@
 
             "Name": "ELAXI [PREMIUM]",
 
-            "TYPE": "premium",
+            "TYPE": "PREMIUM",
 
             "FLAG": "br.png",
 
@@ -49,6 +49,92 @@
             "PASS": ""
 
         },
+        {
+      "Name": "Premium -BR1 ( Clientes )",
+
+      "TYPE": "PREMIUM",
+
+      "FLAG": "br.png",
+
+      "ServerIP": "br1.sshconect-ip.xyz",
+
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+
+      "ServerPort": "22",
+
+      "SSLPort": "443",
+
+      "USER": "",
+
+      "PASS": ""
+
+    },
+
+    {
+
+      "Name": "Premium -BR2 ( Clientes )",
+
+      "TYPE": "PREMIUM",
+
+      "FLAG": "br.png",
+
+      "ServerIP": "br2.sshconect-ip.xyz",
+
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+
+      "ServerPort": "22",
+
+      "SSLPort": "443",
+
+      "USER": "",
+
+      "PASS": ""
+
+    },
+
+    {
+
+      "Name": "Brasil 1 ( livre )",
+
+      "TYPE": "PREMIUM",
+
+      "FLAG": "br.png",
+
+      "ServerIP": "brasil-1.sshconect-ip.xyz",
+
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+
+      "ServerPort": "22",
+
+      "SSLPort": "443",
+
+      "USER": "",
+
+      "PASS": ""
+
+    },
+
+    {
+
+      "Name": "Brasil 2 ( elaxi )",
+
+      "TYPE": "PREMIUM",
+
+      "FLAG": "br.png",
+
+      "ServerIP": "painel3.elaxi.xyz",
+
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+
+      "ServerPort": "80",
+
+      "SSLPort": "443",
+
+      "USER": "",
+
+      "PASS": ""
+
+    }
 
     ],
 
