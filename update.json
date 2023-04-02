@@ -1,6 +1,6 @@
 
 {
-  "Version": "33",
+  "Version": "34",
   "ReleaseNotes": "Nova atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
   "Sms": "https://sshconect.com.br/arquivos/download/app-sshconect/msg.jason",
@@ -110,7 +110,7 @@
     {
       "Name": "TIM E VIVO [ 2 ]",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[lf]Host: 191.252.109.226[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+      "Payload": "GET / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "191.252.109.226",
