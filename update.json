@@ -1,6 +1,6 @@
 {
 
-    "Version": "56",
+    "Version": "57",
 
     "ReleaseNotes": "BEM VINDO À ELAXI",
 
@@ -25,32 +25,63 @@
         }
 
     ],
-
-    "Servers": [
-
-        {
-
-            "Name": "GRINGO [PREMIUM]",
-
-            "TYPE": "premium",
-
-            "FLAG": "br.png",
-
-            "ServerIP": "gringonet.angelsystem.cf",
-
-            "CheckUser": "http://144.22.135.5:5454/checkUser",
-
-            "ServerPort": "22",
-
-            "SSLPort": "443",
-
-            "USER": "",
-
-            "PASS": ""
-
-        },
-
-    ],
+  "Servers": [
+    {
+      "Name": "SELECIONE SEU SERVIDOR",
+      "TYPE": "",
+      "FLAG": "servidor.png",
+      "ServerIP": "",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+      "ServerPort": "",
+      "SSLPort": "",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Premium -BR1 ( Clientes )",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "br1.sshconect-ip.xyz",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Premium -BR2 ( Clientes )",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "br2.sshconect-ip.xyz",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Brasil 1 ( ELAXI )",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "191.252.109.226",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "Brasil 2 ( Gratuito )",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "brasil-2.sshconect-ip.xyz",
+      "CheckUser": "http://191.252.109.226:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+  ],
 
     "Networks": [
 
