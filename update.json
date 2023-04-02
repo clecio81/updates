@@ -1,7 +1,7 @@
 {
     "Version": "28",
     "ReleaseNotes": "BEM VINDO À ELAXI!",
-    "UrlUpdate": "",
+    "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
     "Sms": "SMS",
     "EmailFeedback": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
     "UrlContato": "https://wa.me/+5587981040938",
