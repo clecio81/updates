@@ -1,6 +1,6 @@
 
 {
-  "Version": "34",
+  "Version": "35",
   "ReleaseNotes": "Nova atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
   "Sms": "https://sshconect.com.br/arquivos/download/app-sshconect/msg.jason",
@@ -103,7 +103,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
+      "ProxyIP": "191.252.109.226",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -123,7 +123,7 @@
       "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: painel3.elaxi.xyz\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
       "SNI": "",
       "TlsIP": "127.0.0.1",
-      "ProxyIP": "104.19.239.25",
+      "ProxyIP": "191.252.109.226",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -133,7 +133,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "127.0.0.1",
-      "ProxyIP": "104.18.29.182",
+      "ProxyIP": "191.252.109.226",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -143,7 +143,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "c6bank.com.br",
-      "ProxyIP": "104.16.53.111",
+      "ProxyIP": "191.252.109.226",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -153,7 +153,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
       "SNI": "",
       "TlsIP": "c6bank.com.br",
-      "ProxyIP": "104.19.239.25",
+      "ProxyIP": "191.252.109.226",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
