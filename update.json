@@ -1,0 +1,119 @@
+{
+
+  "Version": "60",
+
+  "ReleaseNotes": "MELHORIAS ENCONTRADAS!",
+
+  "UrlUpdate": "https://raw.githubusercontent.com/sudosalve/sshpluss/master/Modulos/up2.sh",
+
+  "Sms": "https://raw.githubusercontent.com/sudosalve/GOMESNET_site/master/UrlSms",
+
+  "EmailFeedback": "",
+
+  "UrlContato": "https://wa.me/5566992527471",
+
+  "UrlTermos": "https://sudosalve.github.io/GOMESNET_site/termos.html",
+
+  "CheckUser": "true",
+
+  "Udp": [
+
+    {
+
+      "Porta": "7300"
+
+    }
+
+  ],
+
+  "Servers": [
+
+    {
+
+      "Name": "GOMESNET",
+
+      "TYPE": "premium",
+
+      "FLAG": "br.png",
+
+      "ServerIP": "painel3.elaxi.xyz",
+
+      "CheckUser": "http://painel3.elaxi.xyz:5454/checkUser",
+
+      "ServerPort": "22",
+
+      "SSLPort": "443",
+
+      "USER": "",
+
+      "PASS": ""
+
+    }
+
+  ],
+
+   "Networks": [
+
+    {
+
+      "Name": "01 - Version: 1.4.65",
+
+      "FLAG": "vivo",
+
+      "Payload": "GET / HTTP/1.1[crlf]Host:[rotate= 12833v605t84i0r81o.speedup.mobi;1l6m4161820yz6e564.speedup.mobi;ih45681o4r0110g508.speedup.mobi;158n4041acj6800a69.speedup.mobi;81882qv213406wf84t.speedup.mobi;83282ge46088et2b15.speedup.mobi;s1.gomesssh.store;s2.gomesssh.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+
+      "SNI": "",
+
+      "TlsIP": "",
+
+      "ProxyIP": "13.227.126.65",
+
+      "ProxyPort": "80",
+
+      "Info": "Proxy"
+
+    },
+
+    {
+
+      "Name": "02 - Version: 1.4.65",
+
+      "FLAG": "vivo",
+
+      "Payload": "GET / HTTP/1.1[crlf]Host:[rotate= 12833v605t84i0r81o.speedup.mobi;1l6m4161820yz6e564.speedup.mobi;ih45681o4r0110g508.speedup.mobi;158n4041acj6800a69.speedup.mobi;81882qv213406wf84t.speedup.mobi;83282ge46088et2b15.speedup.mobi;s1.gomesssh.store;s2.gomesssh.store][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+
+      "SNI": "",
+
+      "TlsIP": "",
+
+      "ProxyIP": "recarga.vivo.com.br",
+
+      "ProxyPort": "80",
+
+      "Info": "Proxy"
+
+    },
+
+    {
+
+       "Name": "03 - 1Store 1.4.65 >",
+
+      "FLAG": "vivo",
+
+      "Payload": "GET ssl://painel3.elaxi.xyz HTTP/1.1[crlf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]",
+
+      "SNI": "painel3.elaxi.xyz",
+
+      "TlsIP": "painel3.elaxi.xyz",
+
+      "ProxyIP": "painel3.elaxi.xyz",
+
+      "ProxyPort": "443",
+
+      "Info": "Tlsws"
+
+    }
+
+  ]
+
+}
