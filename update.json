@@ -1,6 +1,6 @@
 {
 
-  "Version": "62",
+  "Version": "63",
 
   "ReleaseNotes": "MELHORIAS ENCONTRADAS!",
 
@@ -54,66 +54,106 @@
 
    "Networks": [
 
-    {
+{
+  "Name": "🟣 VIVO Direct [01]",
 
-      "Name": "01 - Version: 61",
+            "FLAG": "vivo.png",
 
-      "FLAG": "vivo",
+            "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
 
-      "Payload": "GET / HTTP/1.1[crlf]Host:[rotate= 12833v605t84i0r81o.speedup.mobi;1l6m4161820yz6e564.speedup.mobi;ih45681o4r0110g508.speedup.mobi;158n4041acj6800a69.speedup.mobi;81882qv213406wf84t.speedup.mobi;83282ge46088et2b15.speedup.mobi;painel3.elaxi.xyz][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
 
-      "SNI": "",
+            "TlsIP": "",
 
-      "TlsIP": "",
+            "ProxyIP": "104.16.53.111",
 
-      "ProxyIP": "191.252.109.226",
+            "ProxyPort": "80",
 
-      "ProxyPort": "80",
+            "Info": "Proxy"
 
-      "Info": "Proxy"
+        },
 
-    },
+        {
 
-    {
+            "Name": "🟣 VIVO Random [01]",
 
-      "Name": "02 - Version: 61",
+            "FLAG": "vivo",
 
-      "FLAG": "vivo",
+            "Payload": "BASELINE-CONTROL ws://[random=painel3.elaxi.xyz; painel3.elaxi.xyz] HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
 
-      "Payload": "GET / HTTP/1.1[crlf]Host:[rotate= 12833v605t84i0r81o.speedup.mobi;1l6m4161820yz6e564.speedup.mobi;ih45681o4r0110g508.speedup.mobi;158n4041acj6800a69.speedup.mobi;81882qv213406wf84t.speedup.mobi;83282ge46088et2b15.speedup.mobi;191.252.109.226;191.252.109.226][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "painel3.elaxi.xyz",
 
-      "SNI": "",
+            "TlsIP": "104.16.53.111",
 
-      "TlsIP": "",
+            "ProxyIP": "",
 
-      "ProxyIP": "recarga.vivo.com.br",
+            "ProxyPort": "443",
 
-      "ProxyPort": "80",
+            "Info": "Tlsws"
 
-      "Info": "Proxy"
+        },
 
-    },
+        {
 
-    {
+            "Name": "🟣 VIVO FLARE [01]",
 
-       "Name": "03 - 1Store 61",
+            "FLAG": "vivo.png",
 
-      "FLAG": "vivo",
+            "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
 
-      "Payload": "GET ssl://painel3.elaxi.xyz HTTP/1.1[crlf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]",
+            "SNI": "",
 
-      "SNI": "191.252.109.226",
+            "TlsIP": "",
 
-      "TlsIP": "painel3.elaxi.xyz",
+            "ProxyIP": "104.16.53.111",
 
-      "ProxyIP": "191.252.109.226",
+            "ProxyPort": "80",
 
-      "ProxyPort": "443",
+            "Info": "Proxy"
 
-      "Info": "Tlsws"
+        },
 
-    }
+        {
 
+            "Name": "🟣 VIVO FLARE [04]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1[lf]Host: [app_host][lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+
+            "SNI": "",
+
+            "TlsIP": "",
+
+            "ProxyIP": "ffsupportbd.garena.com",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        },
+
+        {
+
+            "Name": "🟣 VIVO FLARE [05]",
+
+            "FLAG": "vivo",
+
+            "Payload": "GET / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+
+            "SNI": "",
+
+            "TlsIP": "",
+
+            "ProxyIP": "duvidas.ampli.com.br",
+
+            "ProxyPort": "80",
+
+            "Info": "Proxy"
+
+        }
+  
+  }
   ]
 
 }
