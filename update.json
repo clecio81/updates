@@ -36,7 +36,7 @@
 
       "FLAG": "br.png",
 
-      "ServerIP": "painel3.elaxi.xyz",
+      "ServerIP": "191.252.109.226",
 
       "CheckUser": "http://painel3.elaxi.xyz:5454/checkUser",
 
@@ -102,11 +102,11 @@
 
       "Payload": "GET ssl://painel3.elaxi.xyz HTTP/1.1[crlf]Host: none[crlf]Upgrade: Websocket[crlf][crlf]",
 
-      "SNI": "painel3.elaxi.xyz",
+      "SNI": "191.252.109.226",
 
       "TlsIP": "painel3.elaxi.xyz",
 
-      "ProxyIP": "painel3.elaxi.xyz",
+      "ProxyIP": "191.252.109.226",
 
       "ProxyPort": "443",
 
