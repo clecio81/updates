@@ -59,13 +59,13 @@
 
             "FLAG": "vivo.png",
 
-            "Payload": "GET / HTTP/1.1[crlf]Host: painel3.elaxi.xyz[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: 191.252.109.226[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
 
             "SNI": "",
 
             "TlsIP": "",
 
-            "ProxyIP": "painel3.elaxi.xyz",
+            "ProxyIP": "191.252.109.226",
 
             "ProxyPort": "80",
 
@@ -79,11 +79,11 @@
 
             "FLAG": "vivo",
 
-            "Payload": "BASELINE-CONTROL ws://[random=painel3.elaxi.xyz; painel3.elaxi.xyz] HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "Payload": "BASELINE-CONTROL ws://[random=191.252.109.226;191.252.109.226] HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
 
-            "SNI": "painel3.elaxi.xyz",
+            "SNI": "191.252.109.226",
 
-            "TlsIP": "painel3.elaxi.xyz",
+            "TlsIP": "191.252.109.226",
 
             "ProxyIP": "",
 
@@ -99,13 +99,13 @@
 
             "FLAG": "vivo.png",
 
-            "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:[app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+            "Payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host:191.252.109.226[split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
 
             "SNI": "",
 
             "TlsIP": "",
 
-            "ProxyIP": "painel3.elaxi.xyz",
+            "ProxyIP": "191.252.109.226",
 
             "ProxyPort": "80",
 
@@ -119,7 +119,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET / HTTP/1.1[lf]Host:191.252.109.226[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
 
             "SNI": "",
 
@@ -139,7 +139,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[lf]Host: painel3.elaxi.xyz[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
+            "Payload": "GET / HTTP/1.1[lf]Host: 191.252.109.226[lf]Expect: 100-wesley[lf]Connection: Upgrade[lf]Upgrade: websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
 
             "SNI": "",
 
