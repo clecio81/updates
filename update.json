@@ -1,6 +1,6 @@
 {
 
-  "Version": "66",
+  "Version": "67",
 
   "ReleaseNotes": "MELHORIAS ENCONTRADAS!",
 
@@ -42,7 +42,7 @@
 
       "ServerPort": "22",
 
-      "SSLPort": "443",
+      "SSLPort": "444",
 
       "USER": "",
 
@@ -68,7 +68,7 @@
 
             "ProxyIP": "recarga.vivo.com.br",
 
-            "ProxyPort": "80",
+            "ProxyPort": "81",
 
             "Info": "Proxy"
 
