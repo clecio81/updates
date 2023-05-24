@@ -38,11 +38,11 @@
 
       "ServerIP": "191.252.109.226",
 
-      "CheckUser": "ip.elaxi.shop:5454/checkUser",
+      "CheckUser": "painel.elaxi.shop:5454/checkUser",
 
       "ServerPort": "22",
 
-      "SSLPort": "444",
+      "SSLPort": "443",
 
       "USER": "",
 
@@ -60,7 +60,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[crlf]Host: ip.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: painel.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
 
             "SNI": "",
 
