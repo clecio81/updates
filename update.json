@@ -1,6 +1,6 @@
 {
 
-  "Version": "68",
+  "Version": "70",
 
   "ReleaseNotes": "MELHORIAS ENCONTRADAS!",
 
@@ -30,7 +30,7 @@
 
     {
 
-      "Name": "ELAXI",
+      "Name": "ELAXI Server",
 
       "TYPE": "premium",
 
