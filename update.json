@@ -38,7 +38,7 @@
 
       "ServerIP": "198.161.83.104",
 
-      "CheckUser": "ssh.elaxi.shop:5454/checkUser",
+      "CheckUser": " http://2804:3220:2001:0:3e::4:7300/checkUser",
 
       "ServerPort": "22",
 
