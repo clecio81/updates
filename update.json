@@ -1,6 +1,6 @@
 {
 
-  "Version": "70",
+  "Version": "71",
 
   "ReleaseNotes": "MELHORIAS ENCONTRADAS!",
 
@@ -60,13 +60,13 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: Resurrection websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
 
             "SNI": "",
 
             "TlsIP": "",
 
-            "ProxyIP": "198.161.83.104",
+            "ProxyIP": "",
 
             "ProxyPort": "80",
 
