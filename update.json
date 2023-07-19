@@ -20,7 +20,7 @@
 
     {
 
-      "Porta": "7300"
+      "Porta": "7301"
 
     }
 
@@ -38,7 +38,7 @@
 
       "ServerIP": "198.161.83.104",
 
-      "CheckUser": " http://2804:3220:2001:0:3e::4:7300/checkUser",
+      "CheckUser": "http://198.161.83.104:7300/checkUser",
 
       "ServerPort": "22",
 
