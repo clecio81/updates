@@ -1,250 +1,240 @@
 {
   "Version": "72",
-  "ReleaseNotes": "Nova atualização Disponível!",
+  "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/clecio81/updates/main/update.json",
-  "Sms": "https://sshconect.com.br/arquivos/download/app-sshconect/msg.jason",
+  "Sms": "",
   "EmailFeedback": "",
   "UrlContato": "",
   "UrlTermos": "",
-  "CheckUser": "true",
-  "UdpPort": "7100;7200;7300;7400;7500;7600",
   "Udp": [
     {
-      "Porta": "7100"
+      "Porta": "7300"
     },
     {
-      "Porta": "7200"
-    },   
-    {
-      "Porta": "7300"
-    },  
-    {
       "Porta": "7400"
-    },   
+    },
     {
       "Porta": "7500"
-    },   
+    },
     {
       "Porta": "7600"
-    },    
+    },
+    {
+      "Porta": "7700"
+    }
   ],
   "Servers": [
     {
-      "Name": "SELECIONE SEU SERVIDOR",
-      "TYPE": "",
-      "FLAG": "servidor.png",
-      "ServerIP": "",
-      "CheckUser": "",
-      "ServerPort": "",
-      "SSLPort": "",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Premium -BR1 ( Clientes )",
-      "TYPE": "PREMIUM",
+      "Name": "CONECTA4G | PLUS",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "198.161.83.104",
-      "CheckUser": "http://198.161.83.104:5454/checkUser",
+      "ServerIP": "ssh.elaxi.shop",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
     },
     {
-      "Name": "Premium -BR2 ( Clientes )",
-      "TYPE": "PREMIUM",
+      "Name": "PREMIUM 02 | PLUS",
+      "TYPE": "free",
       "FLAG": "br.png",
-      "ServerIP": "br2.sshconect-ip.xyz",
-      "CheckUser": "http://198.161.83.104:5454/checkUser",
+      "ServerIP": "ssh.elaxi.shop",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Brasil 1 ( Gratuito )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "brasil-1.sshconect-ip.xyz",
-      "CheckUser": "http://198.161.83.104:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "Brasil 2 ( Gratuito )",
-      "TYPE": "PREMIUM",
-      "FLAG": "br.png",
-      "ServerIP": "brasil-2.sshconect-ip.xyz",
-      "CheckUser": "http://198.161.83.104:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
+      "USER": "ola",
+      "PASS": "123"
+    }
   ],
   "Networks": [
-   {
-      "Name": "SELECIONE UMA OPERADORA",
-      "FLAG": "",
-      "Payload": "",
+    {
+      "Name": "VIVO PROXY 01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: ssh.elaxi.shop[crlf]X-Forwarded-For: ssh.elaxi.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ssh.elaxi.shop",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PROXY 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: ssh.elaxi.shop[crlf]X-Forwarded-For: ssh.elaxi.shop[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM TLS 02",
+      "FLAG": "tim",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 03",
+      "FLAG": "tim",
+      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "m.timbancavirtual.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 04",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 05",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ssh.elaxi.shop",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PYTHON/SOCKS 06",
+      "FLAG": "tim",
+      "Payload": "ACL HTTP/1.1[lf]Host: google.es[lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "",
-      "P roxyPort": "",
-      "Info": ""
+      "ProxyPort": "80",
+      "Info": "Direct"
     },
     {
-      "Name": "TIM E VIVO [ 1 ]",
+      "Name": "TIM PYTHON/SOCKS 07",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "ACL buzzfeed.com HTTP/1.1[lf]Host:buzzfeed.com[lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.111",
+      "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
     {
-      "Name": "TIM E VIVO [ 2 ]",
+      "Name": "TIM PYTHON/SOCKS 08",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+      "Payload": "HTTP/ 2\nHOST : m.opera.com\n\n",
       "SNI": "",
-      "TlsIP": "127.0.0.1",
-      "ProxyIP": "104.16.51.111",
+      "TlsIP": "",
+      "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
     {
-      "Name": "TIM [ 3 ]",
+      "Name": "TIM PYTHON/SOCKS 09",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1\nHost: api.sandbox.c6bank.com.br\nExpect: 100-continue\n\n[split]\n\nACL /?/ HTTP/1.1\nHost: ssh.elaxi.shop\nExpect: 100-continue\nUpgrade: websocket\nUser-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)\n\n",
+      "Payload": "HTTP/1.1 [lf]CONNECT HTTP/1.1[lf][lf]|[lf]",
       "SNI": "",
-      "TlsIP": "127.0.0.1",
-      "ProxyIP": "198.161.83.104",
+      "TlsIP": "",
+      "ProxyIP": "",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Direct"
     },
     {
-      "Name": "TIM [ 4 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gitlab.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "127.0.0.1",
-      "ProxyIP": "104.18.29.182",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Name": "CLARO TLS 01",
+      "FLAG": "claro",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "TIM [ 5 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "c6bank.com.br",
-      "ProxyIP": "104.16.53.111",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Name": "CLARO TLS 02",
+      "FLAG": "claro",
+      "Payload": "GET ssl://parceirosclaro.com.br HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "parceirosclaro.com.br",
+      "TlsIP": "parceirosclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
-      "Name": "TIM [ 6 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "c6bank.com.br",
-      "ProxyIP": "198.161.83.104",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Name": "CLARO SSL 03",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "dns.web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
     },
     {
-      "Name": "TIM [ 7 ]",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: api.sandbox.c6bank.com.br[crlf]Expect: 100-continue[lf][lf][split][lf][lf]ACL / HTTP/1.1[lf]Host: ssh.elaxi.shop[lf]Expect: 100-continue[lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[lf][lf]",
-      "SNI": "",
-      "TlsIP": "mobile.c6bank.app",
-      "ProxyIP": "mobile.c6bank.app",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Name": "CLARO SSL 04",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
     },
     {
-      "Name": "VIVO [ 3 ] (novo)", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "104.16.53.111", 
-      "ProxyIP": "104.16.51.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
+      "Name": "CLARO SSL 05",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
     },
     {
-      "Name": "VIVO [ 4 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "172.64.144.109", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
+      "Name": "CLARO SSL 06",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
     },
     {
-      "Name": " VIVO [ 5 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.16.51.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "VIVO [ 6 ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.16.53.111", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "VIVO [ EASY ]", 
-      "FLAG": "vivo", 
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
-      "SNI": "", 
-      "TlsIP": "", 
-      "ProxyIP": "104.18.7.41", 
-      "ProxyPort": "80", 
-      "Info": "Proxy" 
-    },
-    {
-      "Name": "OI [ DIRECT 1 ]",
+      "Name": "OI PROXY 01",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.53.91",
+      "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "OI [ DIRECT 2 ]",
+      "Name": "OI TLS 02",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.54.91",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "OI [ DIRECT 3 ]",
-      "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.17.127.58",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-       }
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
   ]
- }
+}
