@@ -60,7 +60,7 @@
 
             "FLAG": "vivo",
 
-            "Payload": "GET / HTTP/1.1[crlf]Host: painel.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+            "Payload": "GET / HTTP/1.1[crlf]Host: ssh.elaxi.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
 
             "SNI": "",
 
