@@ -30,15 +30,15 @@
 
     {
 
-      "Name": "ELAXI Server",
+      "Name": "ELAXI Server 🟢",
 
       "TYPE": "premium",
 
       "FLAG": "br.png",
 
-      "ServerIP": "191.252.109.226",
+      "ServerIP": "198.161.83.104",
 
-      "CheckUser": "painel.elaxi.shop:5454/checkUser",
+      "CheckUser": "ssh.elaxi.shop:5454/checkUser",
 
       "ServerPort": "22",
 
