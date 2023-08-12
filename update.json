@@ -41,81 +41,19 @@
       "ServerIP": "us2ssh30.cdnws.us",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "ola",
-      "PASS": "123"
+      "USER": "sshstores-clssx",
+      "PASS": "813671"
     }
   ],
   "Networks": [
 {
   "Name": "VIVO TLS 02",
   "FLAG": "vivo",
-  "Payload": "GET wss://us2.ssh30.us/ HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Upgrade: websocket[crlf][crlf]",
-  "SNI": "us2ssh30.cdnws.us",
-  "TlsIP": "104.18.7.80",
-  "ProxyIP": "104.17.58.20",
-  "ProxyPort": "80",
-  "Info": "Tlsws"
-},
-{
-  "Name": "TIM PROXY 01",
-  "FLAG": "tim",
-  "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: us2.ssh30.us[crlf]X-Forwarded-For: us2.ssh30.us[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-  "SNI": "",
-  "TlsIP": "",
-  "ProxyIP": "104.16.56.6",
-  "ProxyPort": "80",
-  "Info": "Proxy"
-},
-{
-  "Name": "TIM TLS 02",
-  "FLAG": "tim",
-  "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-  "SNI": "mobilidade.cloud.caixa.gov.br",
-  "TlsIP": "mobilidade.cloud.caixa.gov.br",
-  "ProxyIP": "",
-  "ProxyPort": "",
-  "Info": "Tlsws"
-},
-{
-  "Name": "TIM TLS 03",
-  "FLAG": "tim",
-  "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Upgrade: websocket[crlf][crlf]",
-  "SNI": "m.timbancavirtual.com.br",
-  "TlsIP": "m.timbancavirtual.com.br",
-  "ProxyIP": "",
-  "ProxyPort": "",
-  "Info": "Tlsws"
-},
-{
-  "Name": "TIM TLS 04",
-  "FLAG": "tim",
-  "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Upgrade: websocket[crlf][crlf]",
-  "SNI": "cdnjs.cloudflare.com",
-  "TlsIP": "cdnjs.cloudflare.com",
-  "ProxyIP": "",
-  "ProxyPort": "",
-  "Info": "Tlsws"
-},
-{
-  "Name": "TIM TLS 05",
-  "FLAG": "tim",
   "Payload": "GET / HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Upgrade: websocket[crlf][crlf]",
   "SNI": "us2ssh30.cdnws.us",
-  "TlsIP": "104.16.19.94",
-  "ProxyIP": "",
-  "ProxyPort": "",
-  "Info": "Tlsws"
-},
-{
-  "Name": "CLARO TLS 01",
-  "FLAG": "claro",
-  "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: us2.ssh30.us[crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
-  "SNI": "mobilidade.cloud.caixa.gov.br",
-  "TlsIP": "mobilidade.cloud.caixa.gov.br",
-  "ProxyIP": "",
-  "ProxyPort": "",
-  "Info": "Tlsws"
-},
-
+  "ProxyIP": "us2ssh30.cdnws.us",
+  "ProxyPort": "8880",
+  "Info": "proxy"
+}
   ]
 }
