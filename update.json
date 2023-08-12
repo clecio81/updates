@@ -54,11 +54,11 @@
     {
       "Name": "VIVO TLS 02",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://us2.ssh30.us/ HTTP/1.1[crlf]Host: bughost.com[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
       "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "104.17.58.20",
+      "ProxyPort": "80",
       "Info": "Tlsws"
     },
     {
